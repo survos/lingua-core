@@ -1,0 +1,21 @@
+{
+  "name": "survos/lingua-core",
+  "type": "library",
+  "description": "Core identity utilities (hash/key calculation and canonicalization) shared across Survos Lingua, Babel, and server implementations.",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Survos\\Lingua\\Core\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.4",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.5",
+    "symplify/easy-coding-standard": "^13.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
